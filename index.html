@@ -4,26 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Priorwizard Technologies | Secure Asset Management</title>
+    <title>PriorWizard Technologies | Secure Asset Management</title>
     <meta name="description"
-        content="Priorwizard Technologies provides end-to-end visibility and operational traceability for factory floors, warehouses, and harsh industrial environments.">
+        content="PriorWizard Technologies provides end-to-end visibility and operational traceability for factory floors, warehouses, and harsh industrial environments.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&family=Roboto+Mono:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <img src="assets/images/logo.png" alt="Priorwizard Technologies Logo" class="logo-img">
+                <img src="assets/images/monoLogo.png" alt="PriorWizard Logo" class="nav-logo-icon">
+                <div class="logo-type">
+                    <span class="logo-text">PriorWizard</span>
+                    <span class="logo-badge">Technologies (OPC) Pvt Ltd</span>
+                </div>
             </div>
             <div class="nav-links">
                 <a href="#footer" class="nav-link">About Us</a>
-                <a href="#footer" class="nav-link">Contact</a>
+                <a href="#contact-form" class="nav-link">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -56,44 +61,49 @@
         <section class="section reverse" id="capabilities">
             <div class="container section-grid">
                 <div class="section-text reveal">
-                    <div class="tag">Ongoing</div>
-                    <h2>Industrial Asset Tracking & Monitoring</h2>
+                    <div class="tag">Field Ready</div>
+                    <h2>Precision Asset Tracking & Hardware</h2>
+                    <p class="section-desc">The "Wizard Wand" is engineered for the high-intensity environments of
+                        retail, manufacturing, and logistics. By combining rugged industrial design with
+                        high-sensitivity RFID/NFC capture, we bridge the gap between physical movement and digital
+                        certainty.</p>
                     <ul class="feature-list bulleted">
-                        <li>Designed and developed an IoT-based asset tracking platform for industrial environments,
-                            focusing on real-time visibility and operational traceability.</li>
-                        <li>Built embedded edge devices using microcontrollers interfaced with RFID/NFC systems for
-                            asset identification.</li>
-                        <li>Developed firmware for reliable data capture and structured event logging under intermittent
-                            connectivity conditions.</li>
-                        <li>Implemented offline-first architecture with local storage and periodic synchronization to
-                            centralized backend systems.</li>
-                        <li>Designed backend services and dashboards using Python (FastAPI) for audit trails and
-                            monitoring.</li>
-                        <li>Focused on scalability in harsh industrial environments, including warehouses and factory
-                            floors.</li>
+                        <li><strong>Anti-Metal NFC Integration:</strong> Optimized for scanning tagged metallic pallets
+                            and heavy machinery in high-interference zones.</li>
+                        <li><strong>Haptic Feedback Systems:</strong> Real-time confirmation of successful data capture
+                            through digital pulse technology.</li>
+                        <li><strong>Edge Processing:</strong> On-device validation of tags ensures data integrity before
+                            it ever leaves the factory floor.</li>
                     </ul>
                 </div>
                 <div class="section-visual reveal">
-                    <div class="glass-card mockup-card">
-                        <div class="mockup-header">
-                            <span class="dot red"></span>
-                            <span class="dot yellow"></span>
-                            <span class="dot green"></span>
-                        </div>
-                        <div class="mockup-body">
-                            <div class="dashboard-sim">
-                                <div class="stat-box">
-                                    <span class="stat-label">Active Nodes</span>
-                                    <span class="stat-value highlight">1,024</span>
-                                </div>
-                                <div class="stat-box">
-                                    <span class="stat-label">Sync Status</span>
-                                    <span class="stat-value text-green">100% Secure</span>
-                                </div>
-                                <div class="chart-sim"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="assets/images/wand-action.png" alt="PriorWizard Wand in Action"
+                        class="featured-img glow-effect">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Smart Warehouse Integration -->
+        <section class="section bg-darker" id="warehouse">
+            <div class="container section-grid">
+                <div class="section-visual reveal">
+                    <img src="assets/images/hero-warehouse.png" alt="Smart Warehouse Holographic Overlay"
+                        class="featured-img">
+                </div>
+                <div class="section-text reveal">
+                    <div class="tag">Scale</div>
+                    <h2>The Modern Smart Warehouse</h2>
+                    <p class="section-desc">PriorWizard transforms traditional storage into intelligent ecosystems. We
+                        provide commercial teams with real-time visibility into warehouse occupancy and operational
+                        flow.</p>
+                    <ul class="feature-list bulleted">
+                        <li><strong>Holographic Digital Twins:</strong> 3D mapping of the warehouse floor with real-time
+                            markers on every tracked asset.</li>
+                        <li><strong>Automated Visibility:</strong> Eliminate manual stock-taking with continuous
+                            background monitoring.</li>
+                        <li><strong>Operational Intelligence:</strong> Use spatial data to optimize picking paths and
+                            reduce bottlenecks.</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -120,8 +130,33 @@
             </div>
         </section>
 
-        <!-- 4. Specialized Engineering -->
-        <section class="section bg-darker" id="engineering">
+        <!-- 5. Operational Workflow -->
+        <section class="section bg-darker" id="workflow">
+            <div class="container section-grid">
+                <div class="section-text reveal">
+                    <div class="tag">Operational Reliability</div>
+                    <h2>Automated Inventory Synchronization</h2>
+                    <p class="section-desc">Our systems are built for the reality of field operations. We ensure "Total
+                        Asset Awareness" even in environments where network connectivity is a luxury, not a guarantee.
+                    </p>
+                    <ul class="feature-list bulleted">
+                        <li><strong>Offline-First Architecture:</strong> Data is captured and secured using local
+                            storage in zero-connectivity factory zones.</li>
+                        <li><strong>Secure Cloud Docking:</strong> Automated sync triggers once devices are docked,
+                            pushing cryptographically verified logs to the backend.</li>
+                        <li><strong>Unbroken Audit Trails:</strong> Every transaction is timestamped and hashed at the
+                            moment of contact, regardless of network status.</li>
+                    </ul>
+                </div>
+                <div class="section-visual reveal">
+                    <img src="assets/images/sync-workflow.png" alt="PriorWizard Sync Workflow"
+                        class="featured-img glow-effect">
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Specialized Engineering -->
+        <section class="section" id="engineering">
             <div class="container">
                 <div class="section-header text-center reveal">
                     <div class="tag">Specialized Engineering</div>
@@ -145,12 +180,16 @@
         <div class="container footer-grid">
             <div class="footer-about">
                 <h3>About Us</h3>
-                <p><strong>Priorwizard Technologies (OPC) Pvt Ltd</strong> was founded on the principles of Bayesian
+                <p><strong>PriorWizard Technologies (OPC) Pvt Ltd</strong> was founded on the principles of Bayesian
                     statistics—specifically the concept of "Prior" distributions—reflecting our commitment to using
                     established data to predict and secure future outcomes.</p>
                 <p>Led by <strong>Rietesh Amminabhavi</strong>, Director, we specialize in <strong>Industry 4.0</strong>
                     automation, predictive maintenance, and defense-tech hardware. Our mission is to deliver "Total
                     Asset Awareness" in environments where failure is not an option.</p>
+                <div class="footer-logo">
+                    <img src="assets/images/footer-logo.png" alt="PriorWizard Technologies Logo"
+                        class="footer-logo-img">
+                </div>
             </div>
             <div class="footer-contact">
                 <h3>Contact Us</h3>
@@ -180,12 +219,12 @@
                         <span class="icon">📧</span>
                         <div class="contact-detail">
                             <strong>Email:</strong>
-                            <a href="mailto:rietesh@priorwizard.tech">rietesh@priorwizard.tech</a>
+                            <a href="mailto:rietesh@priorwizard.in">rietesh@priorwizard.in</a>
                         </div>
                     </li>
                 </ul>
 
-                <form action="https://formspree.io/f/xgodapew" method="POST" class="contact-form">
+                <form id="contact-form" action="https://formspree.io/f/mjglypor" method="POST" class="contact-form">
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Your Name" required>
                     </div>
@@ -200,7 +239,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; <span id="year"></span> Priorwizard Technologies (OPC) Pvt Ltd. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> PriorWizard Technologies (OPC) Pvt Ltd. All rights reserved.</p>
         </div>
     </footer>
 
